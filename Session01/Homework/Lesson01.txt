@@ -1,0 +1,12 @@
+- Question 1: How to check variable’s type?
+	~> Answer: Use function 'type' ~> Print(type('variable'))
+
+- Question 2: In what cases, you will get SyntaxError from the compiler telling you that some of your variables have invalid names?
+	      Can you give 3 different examples of invalid names?
+
+	~> Answer: + Case(1): A variable name do not start with a letter or the underscore character
+			Example: 123abc = 'xyz'
+		   + Case(2): A variable name contain symbol
+			Example: * = 'star'
+                   + Case(3): A variable name is a number
+			Example: 5 = 'five'
