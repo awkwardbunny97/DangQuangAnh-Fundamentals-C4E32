@@ -1,0 +1,20 @@
+Question: What is nested conditionals? Write a piece of code that uses nested conditionals?
+	
+	Answer: Nested conditions comprise condition statements contained within the definition of other condition statements. Nested conditions work as follows:
+
+			You can group multiple condition statements. Conditions consisting of multiple statements 
+			are connected using the logical AND and OR operators.
+
+			You can also nest statements, so that one statement is contained within the definition
+			of another statement.
+
+	Example: x = 10
+		 	 y = 10
+
+		if x < y:
+    			print("x is less than y")
+		else:
+    			if x > y:
+        			print("x is greater than y")
+    			else:
+        			print("x and y must be equal")
