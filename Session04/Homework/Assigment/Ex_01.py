@@ -29,6 +29,6 @@ for v in student_list:
     if phone in v['phone']:
         result.append(v['name'])
 if len(result) != 0:  
-    print('Số điện thoại',phone,'là của sinh viên',result)
+    print('Số điện thoại',phone,'là của sinh viên',*result)
 else:
     print("Không tìm thấy sinh viên nào sử dụng số điện thoại này")
