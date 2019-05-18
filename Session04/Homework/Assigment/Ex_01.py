@@ -25,10 +25,10 @@ print(p['name'],'là sinh viên có điểm toán cao nhất')
 ############# Nhập một số điện thoại và in ra tên sinh viên ############
 phone = input("Nhập số điện thoại cần tìm: ")
 result = []
-for p in student_list:
-    if phone in p['phone']:
-        result.append(p['name'])
+for v in student_list:
+    if phone in v['phone']:
+        result.append(v['name'])
 if len(result) != 0:  
-    print(result)
+    print('Số điện thoại',phone,'là của sinh viên',result)
 else:
-    print("Không có tên  và số điện thoại")
+    print("Không tìm thấy sinh viên nào sử dụng số điện thoại này")
