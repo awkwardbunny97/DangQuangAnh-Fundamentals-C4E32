@@ -1,0 +1,46 @@
+Question: Why should we use functions at all?
+        Answer:  Functions provide better modularity for your application and a high degree of code reusing
+
+Question: How to define/declare a function?
+        Answer: You can define functions to provide the required functionality. Here are simple rules to define a function in Python.
+                    1. Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).
+                    2. Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
+                    3. The first statement of a function can be an optional statement - the documentation string of the function or docstring.
+                    4. The code block within every function starts with a colon (:) and is indented.
+                    5. The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
+
+Question: How to call/use a function?
+        Answer: first, you have to define a function, for example
+                def func1():
+                    print('Hello World')
+                then, to call a function, you have to using this command:
+                    print(func1())
+                The function print(func1()) calls our def func1(): and print the command 'Hello World'
+
+Question: What is return, why and how do we use it?
+        Answer: The return statement causes your function to exit and hand back a value to its caller.
+                The point of functions in general is to take in inputs and return something. 
+                The return statement is used when a function is ready to return a value to its
+
+Question: Do we have to use return in every function?
+        Answer: No, you don't have to return something for every function. It is optional and upto how you write your code logic.
+
+Question: What are function arguments/parameters, why and how we use it?
+        Answer: Arguments are the things which are given to any function or method call, 
+        while the function or method code refers to the arguments by their parameter names.
+        There are four types of arguments that Python can take:
+            1. Default arguments:  are those that take a default value if no argument value is passed during the function call.
+            You can assign this default value by with the assignment operator '='
+            
+            2. Required Arguments: the required arguments are those that have to be in there. 
+            These arguments need to be passed during the function call and in precisely the right order
+
+            3. Keyword Arguments: If you want to make sure that you call all the parameters in the right order, you can use the keyword arguments in your function call. 
+            You use these to identify the arguments by their parameter name.
+
+            4. Variable Number of Arguments: In cases where you don’t know the exact number of arguments that you want to pass to a function,
+            you can use the following syntax with *args:
+
+Question: How to use function from a different file other than our currently working file?
+        Answer: Python allows you to put code in a .py file and import it from other scripts in the same directory. 
+        You can even get more advanced and create packages which include multiple .py files and expose them in different ways.
